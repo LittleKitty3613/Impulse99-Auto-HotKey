@@ -4,5 +4,5 @@
 
 3.Key Binds: F9:Wave 7 Emote 
              Home:Sackin Emote
-			 End:Casino Telport
-			 Del:Legion Telport
+             End:Casino Telport
+	     Del:Legion Telport
