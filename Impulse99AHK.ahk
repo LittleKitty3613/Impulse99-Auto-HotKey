@@ -1,3 +1,6 @@
+
+MsgBox, Disclaimer: Don't Have Chat Open while trying to use hotkey
+
 ; Wave Emote
 
 F9::
@@ -40,3 +43,23 @@ Send, //Legion
 Sleep, 100
 Send, {Enter}
 Return
+
+; Smoke Emote
+
+ScrollLock::
+ SetKeyDelay,50, 25
+Send, T
+Sleep, 100
+Send, /e Smoke
+Sleep, 100
+Send, {Enter}
+Return
+
+
+; Fast Quit
+
+F10::
+Run %ComSpec% /c "taskkill /F /IM FiveM_b3095_GTAProcess.exe"
+Return
+
+
