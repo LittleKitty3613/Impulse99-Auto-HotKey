@@ -6,3 +6,5 @@
              Home:Sackin Emote
              End:Casino Telport
 	     Del:Legion Telport
+             F10:Fast Quit
+             ScrollLock:Smoke Emote
