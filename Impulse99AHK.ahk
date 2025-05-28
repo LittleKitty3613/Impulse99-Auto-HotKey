@@ -58,8 +58,19 @@ Return
 
 ; Fast Quit
 
-F10::
+F12::
 Run %ComSpec% /c "taskkill /F /IM FiveM_b3095_GTAProcess.exe"
 Return
 
+; Quick Animation Stop
 
+PgDn::
+SetKeyDelay,50, 25
+Send, T
+Sleep, 100
+Send, /e yoga
+Sleep, 100
+Send, {Enter}
+Sleep, 100
+Send, X
+Return
