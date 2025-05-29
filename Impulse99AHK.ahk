@@ -74,3 +74,17 @@ Send, {Enter}
 Sleep, 100
 Send, X
 Return
+
+; Funny Quit
+
+Shift::
+SetKeyDelay, 50, 25
+Send, {F8}
+Sleep, 100
+InputBox, userInput, , Quit Reason:, , 300, 150
+if (ErrorLevel)
+    return
+Send, quit %userInput%
+Sleep, 100
+Send, {Enter}
+return
